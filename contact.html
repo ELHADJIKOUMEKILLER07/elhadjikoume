@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../style/css_commun/nav.css">
+    <link rel="stylesheet" href="../../style/css_commun/header.css">
+    <link rel="stylesheet" href="../../style/css_commun/footer.css">
+    <link rel="stylesheet" href="../../style/les_css/style_contact.css">
+    
+
+</head>
+<body>
+    <header>
+        <img src="images/k.png" alt="" width="200px">
+        <nav>
+            <ul>
+                <li><a href="../HOME/home.html">Accueil</a></li>
+                <li><a href="../PRODUITS/produits.html">Produits</a></li>
+                <li><a href="../CONTACT/contact.html">Contact</a></li>
+                <li><a href="../APROPOS/Apropos.html">À Propos</a></li>
+            </ul>
+        </nav>
+    </header>  
+    
+
+  </head>
+  <body>
+    <div class="contact-container">
+        <h2>Contactez-nous</h2>
+        <p>Vous avez une question ? N'hésitez pas à nous écrire !</p>
+        <div class="contact-info">
+            <p><strong>📍 Adresse :</strong> 123 Rue FADIA, Dakar, Sénégal</p>
+            <p><strong>📞 Téléphone :</strong> +221 77 526 92 20</p>
+            <p><strong>📧 Email :</strong> elhadjekoume027@icloud.com</p>
+        </div>
+        <form class="contact-form">
+            <label for="name">Nom et Prénom :</label>
+            <input type="text" id="name" name="name" placeholder="Votre nom" required>
+                
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" placeholder="Votre email" required>
+            
+            <div class="form-group">
+                <label for="type-contrat">Type de Contrat:</label>
+                <select id="type-contrat" name="type-contrat" required>
+                    <option value="" disabled selected>Choisir un type de contrat</option>
+                    <option value="vente">Vente</option>
+                    <option value="location">Location</option>
+                    <option value="maintenance">Maintenance</option>
+                </select>
+            </div>
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" placeholder="Votre message" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+        <div class="social-links">
+            <p>Suivez-nous :</p>
+            <a href="https://www.facebook.com/" class="social-icon">Facebook</a>
+            <a href="https://twitter.com" rel="stylesheet">Twitter</a>
+            <a href="https://www.instagram.com/" class="social-icon">Instagram</a>
+        </div>
+    </div>
+    <details class="appuie">
+      <summary> cliquer pour acceder a notre fiche de commande</summary>
+      <p>voici les differentes contenu que nous disposons</p>
+      <main class="contract-form">
+        <form action="../" method="post">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="contractNumber">Numéro de Contrat :</label>
+              <input type="text" id="contractNumber" name="contractNumber" placeholder="ABC123" required />
+            </div>
+            <div class="form-group">
+              <label for="date">Date :</label>
+              <input type="date" id="date" name="date" required />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="clientName">Nom du Client :</label>
+              <input type="text" id="clientName" name="clientName" placeholder="Nom complet" required />
+            </div>
+            <div class="form-group">
+              <label for="clientEmail">Email du Client :</label>
+              <input type="email" id="clientEmail" name="clientEmail" placeholder="email@exemple.com" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="contractDetails">Détails du Contrat :</label>
+            <textarea id="contractDetails" name="contractDetails" placeholder="Décrivez le contenu du contrat ici..." required></textarea>
+          </div>
+          <div class="form-group">
+            <button type="submit">Envoyer le Contrat</button>
+          </div>
+        </form>
+      </summary>
+    </details>
+      </main>
+    </details>
+</body>
+<footer class="footer">
+    <div class="footer-container">
+      
+      <!-- À propos -->
+      <div class="footer-item footer-about">
+        <h3>À propos</h3>
+        <p>
+          Vente de Navires est votre partenaire fiable pour acheter ou vendre des navires adaptés à tous vos besoins professionnels et personnels. 
+          Nous offrons des conseils experts et un service personnalisé.
+        </p>
+      </div>
+      
+      <!-- Liens Rapides -->
+      <div class="footer-item footer-links">
+        <h3>Liens Rapides</h3>
+        <ul>
+          <li><a href="../HOME/home.html">Accueil</a></li>
+          <li><a href="#">Nos Navires</a></li>
+          <li><a href="../PRODUITS/produits.html">produits</a></li>
+          <li><a href="../APROPOS/Apropos.html">Apropos</a></li>
+          <li><a href="../CONTACT/contact.html">Contact</a></li>
+        </ul>
+      </div>
+      
+      <!-- Contact -->
+      <div class="footer-item footer-contact">
+        <h3>Contact</h3>
+        <ul>
+          <li>Adresse: 123 Rue Maritime, DAKAR</li>
+          <li>Téléphone: +221 77 526 92 20</li>
+          <li>Email: elhadjekoume027@icloud.com</li>
+        </ul>
+      </div>
+      
+      <!-- Newsletter & Réseaux Sociaux -->
+      <div class="footer-item footer-newsletter">
+        <h3>Newsletter</h3>
+        <form action="#" method="post">
+          <input type="email" placeholder="Votre email" required>
+          <button type="submit">S'abonner</button>
+        </form>
+        <div class="social-links">
+            <ul>
+              <li><a href="https://www.facebook.com/" title="Facebook">Facebook</a></li>
+              <li><a href="https://twitter.com" title="Twitter">Twitter</a></li>
+              <li><a href="https://www.instagram.com/" title="Instagram">Instagram</a></li>
+         <li> <a href="#" title="LinkedIn">LinkedIn</a></li>
+        </ul>
+        </div>
+      </div>
+      
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2025 ELHADJI MOMAR KOUME. Tous droits réservés.</p>
+    </div>
+  </footer>
+</html>
